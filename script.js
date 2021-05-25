@@ -22,3 +22,9 @@ for (let meal in meals) {
 			returnedMeals.push('There has been an error');
 	}
 }
+
+const displayMsg = () => {
+	console.log(returnedMeals.join(' '));
+}
+
+displayMsg();
